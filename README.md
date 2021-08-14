@@ -47,7 +47,7 @@ T1->priority 1 and rerun(1) , T2->priority 2 and rerun(2) , and T3->priority 3 a
 ![image](https://user-images.githubusercontent.com/45502245/114321620-0e863c80-9b1c-11eb-9d65-2d82e21d4b10.png)
 
 
-### Systick Configurations ### :<br/>
+### Systick Configurations: ###
 --HAL_SYSTICK_Config(HAL_RCC_GetHCLKFreq()*0.05); <br />
 --HAL_SYSTICK_CLKSourceConfig(SYSTICK_CLKSOURCE_HCLK); <br />
 -- HAL_NVIC_SetPriority(SysTick_IRQn, 0, 0); <br />
